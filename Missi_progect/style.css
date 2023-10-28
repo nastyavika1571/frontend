@@ -1,0 +1,44 @@
+a {
+    color: indianred;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
+.menu{
+    height: 200px;
+    background-color: silver;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li{
+    list-style: none;
+}
+/*Прижатие футера*/
+* {
+margin: 0;
+padding: 0;
+}
+html, body {
+height: 100%;
+}
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100%;
+}
+.content {
+flex: 1 0 auto;
+}
+.footer {
+flex: 0 0 auto;
+}
